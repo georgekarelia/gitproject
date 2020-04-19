@@ -1,0 +1,11 @@
+SERVER THIS_HOST ANY 27000
+VENDOR nilm
+PACKAGE Ultiboard_ProPower_PKG nilm 10.0100 \
+	COMPONENTS="Ultiboard_Core Ultiboard_ProPower" \
+	SIGN=27E2B5948630
+INCREMENT Ultiboard_ProPower_PKG nilm 10.0100 permanent uncounted \
+	VENDOR_STRING="TEAM TBE" HOSTID=50e549414bbf \
+	vendor_info="TYPE=Application \
+	URL=http://digital.ni.com/express.nsf/bycode/exi5cc \
+	LABEL=Power Pro Edition FAMILY=Ultiboard_Family_100100" TS_OK \
+	SIGN=8D6F29643EB8
